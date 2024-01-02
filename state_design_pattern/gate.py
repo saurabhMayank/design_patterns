@@ -30,6 +30,8 @@ class Gate:
         """
         change the gate state to the new_gate_state
         that is passed as an argument to the change state function
+        when there is a transition needed from one state to another
+        then change_state function is called
         """
         self.gate_state = new_gate_state
 
