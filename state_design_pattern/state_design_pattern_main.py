@@ -6,17 +6,21 @@ https://github.com/vicmar57/OOP-Design-Patterns/tree/master/StatePattern/src/Sta
 """
 from state_design_pattern.gate import Gate
 
-class Main():
-    def __init__():
-        pass
+def run_simulation():
+    metro_gate = Gate()
+    metro_gate.pay()
+    metro_gate.pay_failed()
+    metro_gate.pay()
+    metro_gate.pay_ok()
+    metro_gate.enter()
 
-    Gate metro_gate = Gate()
-    metro_gate.pay();
-	metro_gate.payFailed();
-	metro_gate.pay();
-	metro_gate.payOK();
-	metro_gate.enter();
+if __name__ == "__main__":
+    run_simulation()
 
-    
+"""
+This code is giving circular import error if the classes are kept in different modules
+ -> and this was expected because state change code
 
 
+ If classes are kept in same module then that error does not come
+"""
