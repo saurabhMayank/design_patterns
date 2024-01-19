@@ -1,5 +1,5 @@
 from strategy_pattern.IFly import IFly
-class SimpleFlying(Ifly):
+class SimpleFlying(IFly):
     """
     Class for Simple flying
     """
