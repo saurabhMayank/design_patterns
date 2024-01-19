@@ -4,5 +4,8 @@ class SimpleFlying(IFly):
     Class for Simple flying
     """
 
+    def __init__(self):
+        pass
+
     def fly(self):
         print("Simple Flying Behaviour")
