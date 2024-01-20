@@ -2,7 +2,6 @@ from observer_pattern.weather_station import WeatherStation
 from observer_pattern.phone_display import PhoneDisplay
 from observer_pattern.lcd_display import LcdDisplay
 
-
 # observable
 weather_station = WeatherStation()
 
@@ -11,7 +10,6 @@ lcd = LcdDisplay()
 
 # observer 2
 phone = PhoneDisplay()
-
 
 # register observers
 weather_station.register_observer(lcd)

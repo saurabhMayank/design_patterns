@@ -6,4 +6,5 @@ class PhoneDisplay(IObserver):
     
     def update(self, temperature: float, humidity: float, pressure: float):
         print(" Hello I am Phone Display ")
-        print(f" Current updated measurements are, temp: {temperature}, humidity: {humidity}, pressure: {pressure} ")
+        print(f" Current updated measurements are -> temp: {temperature}, humidity: {humidity}, pressure: {pressure} ")
+        print("\n")
