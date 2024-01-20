@@ -1,4 +1,7 @@
-class IAnimalFactory():
+from abc import ABC, abstractmethod
+
+
+class IAnimalFactory(ABC):
     """
     Interface for Animal Factory classes
     """
@@ -6,6 +9,7 @@ class IAnimalFactory():
     def __init__(self):
         pass
     
+    @abstractmethod
     def create_animal(self):
         """
         This function will handle the logic of

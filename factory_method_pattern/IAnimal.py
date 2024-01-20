@@ -1,4 +1,7 @@
-class IAnimal():
+from abc import ABC, abstractmethod
+
+
+class IAnimal(ABC):
     """
     Interface for Animal classes
     """
@@ -6,6 +9,7 @@ class IAnimal():
     def __init__(self):
         pass
     
+    @abstractmethod
     def say_hello(self):
         pass
 

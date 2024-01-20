@@ -1,4 +1,7 @@
-class IQuack:
+from abc import ABC, abstractmethod
+
+
+class IQuack(ABC):
     """
     Interface for quacking behaviour
     """
@@ -6,5 +9,6 @@ class IQuack:
     def __init__(self):
         pass
     
+    @abstractmethod
     def quack(self):
         pass
