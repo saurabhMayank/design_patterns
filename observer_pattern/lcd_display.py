@@ -1,5 +1,6 @@
 from observer_pattern.IObserver import IObserver
 
+
 class LcdDisplay(IObserver):
     def __init__(self):
         pass

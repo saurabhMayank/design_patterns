@@ -2,6 +2,7 @@ from observer_pattern.weather_station import WeatherStation
 from observer_pattern.phone_display import PhoneDisplay
 from observer_pattern.lcd_display import LcdDisplay
 
+
 # observable
 weather_station = WeatherStation()
 

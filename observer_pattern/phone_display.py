@@ -1,5 +1,6 @@
 from observer_pattern.IObserver import IObserver
 
+
 class PhoneDisplay(IObserver):
     def __init__(self):
         pass

@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 
+
 # Observer interface
 class IObserver(ABC):
     def __init__(self):

@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 from observer_pattern.IObserver import IObserver
 
+
 class IObservable(ABC):
     def __init__(self):
         pass

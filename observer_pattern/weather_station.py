@@ -1,6 +1,7 @@
 from observer_pattern.IObservable import IObservable
 from observer_pattern.IObserver import IObserver
 
+
 class WeatherStation(IObservable):
 
     def __init__(self):

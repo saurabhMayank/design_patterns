@@ -5,11 +5,10 @@ Through Object of this User will interact
 Initial state of Gate will be closed
 """
 from state_design_pattern.IGateState import IGateState
-# from state_design_pattern.closed_state import ClosedGateState
-
 
 class Gate:
     def __init__(self):
+        # initially gate is closed
         self.gate_state = ClosedGateState(self)
 
     
